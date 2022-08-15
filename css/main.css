@@ -138,6 +138,7 @@ body{
   font-size: 48px;
   color: rgb(40, 40, 40);
 }
+
 .container .top-content .main-text h2{
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -678,6 +679,11 @@ body{
     padding: 10px 0px;
     margin-bottom: 10px;
 }
+.container .top-content .main-text h1,
+.container .top-content .main-text h2,
+.cards-p2 .about-us-info{
+  text-align: center;
+}
 .cards-p3 .mini-cards .minicard{
   width: 90%;
 }
@@ -686,4 +692,20 @@ body{
   width: 100%;
 }
 
+}
+
+/* ==== Media 500px ==== */
+@media(max-width: 500px){
+  .cards-p4 .contact-minicards .location .adress div,
+  .cards-p4 .contact-minicards .location .email div,
+  .cards-p4 .contact-minicards .location .number div{
+    width: 85%;
+}
+}
+@media(max-width: 350px){
+  .cards-p4 .contact-minicards .location .adress div,
+  .cards-p4 .contact-minicards .location .email div,
+  .cards-p4 .contact-minicards .location .number div{
+    width: 80%;
+}
 }
