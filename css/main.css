@@ -679,8 +679,12 @@ body{
     padding: 10px 0px;
     margin-bottom: 10px;
 }
-.container .top-content .main-text h1,
-.container .top-content .main-text h2,
+.cards-p1 h2{
+  width: 100%;
+}
+.container .top-content .main-text,
+.cards-p1 .vision,
+.cards-p1 .why-us,
 .cards-p2 .about-us-info{
   text-align: center;
 }
